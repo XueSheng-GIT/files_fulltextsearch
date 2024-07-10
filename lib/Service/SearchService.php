@@ -128,6 +128,7 @@ class SearchService {
 		$request->addField('share_names.' . $username);
 
 		$request->addWildcardField('title');
+		$request->addWildcardField('content');
 		$request->addWildcardField('share_names.' . $username);
 	}
 
